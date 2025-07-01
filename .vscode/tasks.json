@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-Iinclude",               // Include path
+        "src/*.cpp",               // Source files
+        "-o",
+        "build/app.exe"            // Output file
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
