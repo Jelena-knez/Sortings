@@ -1,4 +1,3 @@
-#include "sortings.h"
 #include <vector>
 
 void insertionSort(std::vector<int>& array) {
@@ -8,7 +7,7 @@ void insertionSort(std::vector<int>& array) {
 
         int j = i - 1;
 
-        while (array[j] > current && j >= 0) {
+        while (j >= 0 && array[j] > current) {
             array[j + 1] = array[j];
             --j;
         }

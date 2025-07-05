@@ -16,10 +16,18 @@ int main() {
         int num = stoi(input);
         array.push_back(num);
     }
-
+/*
     bruteForce(array);
 
-    std::cout << "Sorted array: \n";
+    std::cout << "Sorted array using brute force: \n";
+
+    for (int i = 0; i < array.size(); i++) {
+        std::cout << array[i] << " ";
+    }
+*/
+    insertionSort(array);
+
+    std::cout << "Sorted array using insertion sort: \n";
 
     for (int i = 0; i < array.size(); i++) {
         std::cout << array[i] << " ";
