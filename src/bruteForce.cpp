@@ -1,6 +1,4 @@
-#include "sortings.h"
 #include <vector>
-#include <iostream>
 
 void bruteForce(std::vector<int>& array) {
 

@@ -24,10 +24,18 @@ int main() {
     for (int i = 0; i < array.size(); i++) {
         std::cout << array[i] << " ";
     }
-*/
+
     insertionSort(array);
 
     std::cout << "Sorted array using insertion sort: \n";
+
+    for (int i = 0; i < array.size(); i++) {
+        std::cout << array[i] << " ";
+    }
+*/
+    selectionSort(array);
+
+    std::cout << "Sorted array using selection sort: \n";
 
     for (int i = 0; i < array.size(); i++) {
         std::cout << array[i] << " ";
