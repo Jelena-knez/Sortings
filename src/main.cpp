@@ -40,10 +40,18 @@ int main() {
     for (int i = 0; i < array.size(); i++) {
         std::cout << array[i] << " ";
     }
-*/
+
     bubbleSort(array);
 
     std::cout << "Sorted array using bubble sort: \n";
+
+    for (int i = 0; i < array.size(); i++) {
+        std::cout << array[i] << " ";
+    }
+*/
+    shellSort(array);
+
+    std::cout << "Sorted array using shell sort: \n";
 
     for (int i = 0; i < array.size(); i++) {
         std::cout << array[i] << " ";
