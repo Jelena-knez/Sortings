@@ -32,10 +32,18 @@ int main() {
     for (int i = 0; i < array.size(); i++) {
         std::cout << array[i] << " ";
     }
-*/
+
     selectionSort(array);
 
     std::cout << "Sorted array using selection sort: \n";
+
+    for (int i = 0; i < array.size(); i++) {
+        std::cout << array[i] << " ";
+    }
+*/
+    bubbleSort(array);
+
+    std::cout << "Sorted array using bubble sort: \n";
 
     for (int i = 0; i < array.size(); i++) {
         std::cout << array[i] << " ";
